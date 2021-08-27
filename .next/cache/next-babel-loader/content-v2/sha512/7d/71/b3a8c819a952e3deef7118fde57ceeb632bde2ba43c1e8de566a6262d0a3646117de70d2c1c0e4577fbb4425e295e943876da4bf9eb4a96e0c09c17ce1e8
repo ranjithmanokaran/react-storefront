@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { search as default } from 'react-storefront-connector';","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { addToCart } from 'react-storefront-connector';\n\nasync function handler(req, res) {\n  const result = await addToCart(req.body, req, res);\n  res.json(result);\n}\n\nexport const config = {\n  api: {\n    bodyParser: true\n  }\n};\nexport default handler;","map":null,"metadata":{},"sourceType":"module"}
